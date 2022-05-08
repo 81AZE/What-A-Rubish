@@ -9,9 +9,8 @@ const word = require('./Data/Text Data/word.json');
 
 // function
 function Soothsayer() {
-    
-    const random_preduction = preductions[Math.floor(Math.random() * preductions.length)];
-    return random_preduction;
+    const randon_preduction = preductions[Math.floor(Math.random() * preductions.length)];
+    return randon_preduction;
 
 };
 
